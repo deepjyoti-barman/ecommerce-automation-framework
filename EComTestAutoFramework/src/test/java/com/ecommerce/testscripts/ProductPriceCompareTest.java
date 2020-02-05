@@ -21,23 +21,23 @@ public class ProductPriceCompareTest extends BaseTest
     @Test
     public void tc_001_iphonePriceCompare() throws IOException
     {
-		String productName = "iPhone XR (64GB) - Yellow";
-		
-		AmazonProductListPage amazonPLP = amazonHP.search(productName);
-		int iphonePriceAmazon = amazonPLP.getiphoneModelPrice();
-		
-		FlipkartHomePage flipkartHP = navigateToFlipkart();
-		FlipkartProductListPage flipkartPLP = flipkartHP.search(productName);
-		int iphonePriceFlipkart = flipkartPLP.getiphoneModelPrice();
+        String productName = "iPhone XR (64GB) - Yellow";
 			
-		System.out.println("Price of '" + productName + "' on Amazon ==> " + iphonePriceAmazon);
-		System.out.println("Price of '" + productName + "' on Flipkart ==> " + iphonePriceFlipkart);
+        AmazonProductListPage amazonPLP = amazonHP.search(productName);
+        int iphonePriceAmazon = amazonPLP.getiphoneModelPrice();
 			
-		if (iphonePriceAmazon == iphonePriceFlipkart)
-			System.out.println("\n[RESULT]: price of the product '" + productName + "' on FLIPKART is equal to the price of the product in AMAZON");
-		else if (iphonePriceAmazon > iphonePriceFlipkart)
-			System.out.println("\n[RESULT]: price of the product '" + productName + "' on FLIPKART is lesser than price of the product in AMAZON");
-		else
-			System.out.println("\n[RESULT]: price of the product '" + productName + "' on AMAZON is lesser than price of the product in FLIPKART");
+        FlipkartHomePage flipkartHP = navigateToFlipkart();
+        FlipkartProductListPage flipkartPLP = flipkartHP.search(productName);
+        int iphonePriceFlipkart = flipkartPLP.getiphoneModelPrice();
+				
+        System.out.println("Price of '" + productName + "' on Amazon ==> " + iphonePriceAmazon);
+        System.out.println("Price of '" + productName + "' on Flipkart ==> " + iphonePriceFlipkart);
+				
+        if (iphonePriceAmazon == iphonePriceFlipkart)
+            System.out.println("\n[RESULT]: price of the product '" + productName + "' on FLIPKART is equal to the price of the product in AMAZON");
+        else if (iphonePriceAmazon > iphonePriceFlipkart)
+            System.out.println("\n[RESULT]: price of the product '" + productName + "' on FLIPKART is lesser than price of the product in AMAZON");
+        else
+            System.out.println("\n[RESULT]: price of the product '" + productName + "' on AMAZON is lesser than price of the product in FLIPKART");
     }
 }

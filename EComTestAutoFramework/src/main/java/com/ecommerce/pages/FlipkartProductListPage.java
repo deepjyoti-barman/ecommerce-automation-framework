@@ -24,7 +24,7 @@ public class FlipkartProductListPage
     /* Initialize all the elements of the page */
     public FlipkartProductListPage(WebDriver driver)
     {
-	    PageFactory.initElements(driver, this);
+        PageFactory.initElements(driver, this);
     }
 	
 	

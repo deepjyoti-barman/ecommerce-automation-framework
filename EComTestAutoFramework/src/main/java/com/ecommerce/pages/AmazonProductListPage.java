@@ -24,7 +24,7 @@ public class AmazonProductListPage
     /* Initialize all the elements of the page */
     public AmazonProductListPage(WebDriver driver)
     {
-	    PageFactory.initElements(driver, this);
+        PageFactory.initElements(driver, this);
     }
 	
 	
