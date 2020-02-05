@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ECommerce" duration-ms="24375" started-at="2020-01-31T14:31:54Z" finished-at="2020-01-31T14:32:19Z">
+    <groups>
+    </groups>
+    <test name="ProductPriceTest" duration-ms="24375" started-at="2020-01-31T14:31:54Z" finished-at="2020-01-31T14:32:19Z">
+      <class name="com.ecommerce.testscripts.ProductPriceCompareTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.ecommerce.testscripts.ProductPriceCompareTest@2d554825]" name="openBrowser" is-config="true" duration-ms="3306" started-at="2020-01-31T14:31:54Z" finished-at="2020-01-31T14:31:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loadApp()[pri:0, instance:com.ecommerce.testscripts.ProductPriceCompareTest@2d554825]" name="loadApp" is-config="true" duration-ms="7880" started-at="2020-01-31T14:31:58Z" finished-at="2020-01-31T14:32:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadApp -->
+        <test-method status="PASS" signature="tc_001_iphonePriceCompare()[pri:0, instance:com.ecommerce.testscripts.ProductPriceCompareTest@2d554825]" name="tc_001_iphonePriceCompare" duration-ms="11081" started-at="2020-01-31T14:32:06Z" finished-at="2020-01-31T14:32:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001_iphonePriceCompare -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.ecommerce.testscripts.ProductPriceCompareTest@2d554825]" name="closeBrowser" is-config="true" duration-ms="2088" started-at="2020-01-31T14:32:17Z" finished-at="2020-01-31T14:32:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ecommerce.testscripts.ProductPriceCompareTest -->
+    </test> <!-- ProductPriceTest -->
+  </suite> <!-- ECommerce -->
+</testng-results>

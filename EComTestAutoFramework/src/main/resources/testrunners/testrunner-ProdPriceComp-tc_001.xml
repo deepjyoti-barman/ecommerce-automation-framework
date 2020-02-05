@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ECommerce">
+	<test name="ProductPriceTest">
+		<classes>
+			<class name="com.ecommerce.testscripts.ProductPriceCompareTest">
+				<methods>
+					<include name="tc_001_iphonePriceCompare" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

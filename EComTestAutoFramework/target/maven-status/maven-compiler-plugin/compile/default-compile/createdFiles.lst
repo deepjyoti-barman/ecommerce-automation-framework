@@ -1,0 +1,8 @@
+com\ecommerce\base\BaseTest.class
+com\ecommerce\utils\CommonLib.class
+com\ecommerce\pages\AmazonProductListPage.class
+com\ecommerce\pages\FlipkartHomePage.class
+com\ecommerce\pages\AmazonHomePage.class
+com\ecommerce\base\IAutoConstant.class
+com\ecommerce\utils\FileLib.class
+com\ecommerce\pages\FlipkartProductListPage.class
