@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import com.ecommerce.base.IAutoConstant;
 
 /**
- * It is collection of commonly used methods throughout the framework
+ * It is collection of commonly used methods throughout the framework.
  * 
  * @author Deepjyoti Barman
  * @since January 31, 2020
@@ -15,7 +15,7 @@ import com.ecommerce.base.IAutoConstant;
 public class CommonLib implements IAutoConstant
 {
     /**
-     * Sets the wait for loading a page, loading an element and loading a script
+     * Sets the wait for loading a page, loading an element and loading a script.
      * 
      * @param driver Current driver reference in use 
      */
@@ -28,7 +28,7 @@ public class CommonLib implements IAutoConstant
 	
 	
     /**
-     * Set the wait for loading a page, loading an element and loading a script taking parameters from user
+     * Set the wait for loading a page, loading an element and loading a script taking parameters from user.
      * 
      * @param driver Current driver reference in use
      * @param iwTimeoutInSecs Implicit wait timeout in seconds

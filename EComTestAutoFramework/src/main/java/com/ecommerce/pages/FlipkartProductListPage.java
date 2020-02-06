@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 /**
- * Object repository of Flipkart Product List Page
+ * Object repository of Flipkart Product List Page.
  * 
  * @author Deepjyoti Barman
  * @since January 31, 2019
@@ -30,7 +30,7 @@ public class FlipkartProductListPage
 	
     /* Actions to be performed on the page */
     /**
-     * Retrieve the price of the product from the page and return it back as an integer
+     * Retrieve the price of the product from the page and return it back as an integer.
      * 
      * @return The price of the product as an integer
      */

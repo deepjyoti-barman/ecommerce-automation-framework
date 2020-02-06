@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 /**
- * Object repository of Amazon Home Page
+ * Object repository of Amazon Home Page.
  * 
  * @author Deepjyoti Barman
  * @since January 31, 2019
@@ -32,9 +32,10 @@ public class AmazonHomePage
 	
     /* Actions to be performed on the page */
     /**
-     * Write the given name in search textbox and press 'Enter' key to search the desired product 
+     * Write the given name in search textbox and press 'Enter' key to search the desired product.
      * 
      * @param productName Name of the product you want to search
+     * @return The reference of next page to be loaded
      */
     public AmazonProductListPage search(String productName)
     {

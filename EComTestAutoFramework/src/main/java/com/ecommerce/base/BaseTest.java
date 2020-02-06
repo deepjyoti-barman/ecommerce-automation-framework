@@ -35,7 +35,7 @@ public class BaseTest implements IAutoConstant
     
     
     /**
-     * Opens up the in desired browser window
+     * Opens up the desired browser window.
      * 
      * @throws IOException
      */
@@ -55,7 +55,7 @@ public class BaseTest implements IAutoConstant
     
     
     /**
-     * Loads the required application on the browser
+     * Loads the required application on the browser.
      * 
      * @throws IOException
      */
@@ -71,7 +71,7 @@ public class BaseTest implements IAutoConstant
     
     
     /**
-     * Closes the currently open browser window
+     * Closes the currently open browser window.
      */
     @AfterClass
     public void closeBrowser()
@@ -82,7 +82,7 @@ public class BaseTest implements IAutoConstant
     
     
     /**
-     * Navigates to Amazon (http://www.amazon.in)
+     * Navigates to Amazon (http://www.amazon.in).
      * @throws IOException
      */
     public AmazonHomePage navigateToAmazon() throws IOException
@@ -95,7 +95,7 @@ public class BaseTest implements IAutoConstant
     
     
     /**
-     * Navigates to Flipkart (http://www.flipkart.com) 
+     * Navigates to Flipkart (http://www.flipkart.com).
      * @throws IOException
      */
     public FlipkartHomePage navigateToFlipkart() throws IOException

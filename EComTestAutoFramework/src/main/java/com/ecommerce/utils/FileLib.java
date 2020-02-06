@@ -11,7 +11,7 @@ import com.ecommerce.base.IAutoConstant;
  * - <strong>.properties</strong><br>
  * - <strong>xls / .xlsx</strong><br>
  * - <strong>.json</strong><br>
- * - <strong>.xml<strong><br>
+ * - <strong>.xml</strong><br>
  * 
  * @author Deepjyoti Barman
  * @since January 31, 2020
@@ -19,7 +19,7 @@ import com.ecommerce.base.IAutoConstant;
 public class FileLib implements IAutoConstant
 {
     /**
-     * Built to get the required key from the .properties file
+     * Built to get the required key from the .properties file.
      * 
      * @param key Key to search in the file
      * @return The value assigned to the respective key
@@ -39,7 +39,7 @@ public class FileLib implements IAutoConstant
 	
 	
     /**
-     * Built to get the required key from the .properties file placed in specified location
+     * Built to get the required key from the .properties file placed in specified location.
      * 
      * @param key Key to search in the file
      * @param filePath Path of the .properties file

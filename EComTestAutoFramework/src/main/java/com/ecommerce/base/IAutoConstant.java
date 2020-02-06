@@ -1,7 +1,7 @@
 package com.ecommerce.base;
 
 /**
- * Interface that contains all the final static constants to be used throughout the framework
+ * Interface that contains all the final static constants to be used throughout the framework.
  * 
  * @author Deepjyoti Barman
  * @since January 31, 2020
