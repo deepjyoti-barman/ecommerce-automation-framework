@@ -7,11 +7,11 @@ import java.util.Properties;
 import com.ecommerce.base.IAutoConstant;
 
 /**
- * It is built for reading data from files of different formats given below:<br>
- * - <strong>.properties</strong><br>
- * - <strong>xls / .xlsx</strong><br>
- * - <strong>.json</strong><br>
- * - <strong>.xml</strong><br>
+ * It is built for reading data from files of different formats given below:
+ * <p>- <strong>.properties</strong></p>
+ * <p>- <strong>xls / .xlsx</strong></p>
+ * <p>- <strong>.json</strong></p>
+ * <p>- <strong>.xml</strong></p>
  * 
  * @author Deepjyoti Barman
  * @since January 31, 2020
